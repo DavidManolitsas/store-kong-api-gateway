@@ -1,1 +1,1 @@
-# store-kong-api-gateway
+# Store Kong Api Gateway

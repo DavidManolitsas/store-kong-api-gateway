@@ -1,0 +1,13 @@
+_format_version: "2.1"
+_transform: true
+
+services:
+  - host: store-ms
+    name: store-ms
+    port: 8080
+    protocol: http
+    routes:
+      - name: store-ms-route
+        paths:
+          - /store
+        strip_path: true
